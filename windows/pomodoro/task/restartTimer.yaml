@@ -1,0 +1,13 @@
+appId: com.first_app.pomodorotimer
+---
+- launchApp
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/cat_sleep"
+- assertVisible:
+    id: "com.first_app.pomodorotimer:id/cat_move"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/cat_move"
+- assertVisible:
+    id: "com.first_app.pomodorotimer:id/button_restart"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/button_restart"
