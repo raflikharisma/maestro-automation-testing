@@ -1,0 +1,18 @@
+appId: com.first_app.pomodorotimer
+---
+- launchApp
+- tapOn:
+    id: menu_icon
+- tapOn:
+    id: button_work_time
+- tapOn:
+    id: minus
+- doubleTapOn:
+    id: work_time_invisible
+- eraseText
+- inputText: "20"
+- tapOn:
+    id: text_color
+- tapOn:
+    id: goBack
+- assertVisible: "20 : 00"
