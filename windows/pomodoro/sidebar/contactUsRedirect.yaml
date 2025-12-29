@@ -1,0 +1,16 @@
+appId: com.first_app.pomodorotimer
+---
+- launchApp
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/menu_icon"
+- scrollUntilVisible:
+    element:
+      text: "Contact Us"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/button_contact_us"
+- assertVisible:
+    id: "android:id/item"
+    index: 3
+- assertVisible: "Sharing text"

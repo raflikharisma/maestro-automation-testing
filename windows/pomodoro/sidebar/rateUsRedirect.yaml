@@ -1,0 +1,13 @@
+appId: com.first_app.pomodorotimer
+---
+- launchApp
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/menu_icon"
+- scrollUntilVisible:
+    element:
+      text: "Contact Us"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/button_rate_us"
+- assertVisible: "Goldman & Co."
