@@ -1,0 +1,18 @@
+appId: com.first_app.pomodorotimer
+---
+- launchApp
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/menu_icon"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/button_rest_time"
+- doubleTapOn:
+    id: "com.first_app.pomodorotimer:id/rest_time_invisible"
+- "eraseText"
+- inputText: "10"
+- tapOn:
+    id: "text_color"
+- assertVisible:
+    id: "com.first_app.pomodorotimer:id/button_rest_time"
+- assertVisible:
+    id: "com.first_app.pomodorotimer:id/rest_time"
+    text: "10"
