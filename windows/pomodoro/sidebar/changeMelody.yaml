@@ -1,0 +1,26 @@
+appId: com.first_app.pomodorotimer
+---
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/menu_icon"
+- scrollUntilVisible:
+    element:
+      text: "Melody"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/image_text"
+- swipe:
+    start: "50%,80%"
+    end: "50%,40%"
+- tapOn: "Retro Riffs"
+- scrollUntilVisible:
+    element:
+      text: "Magic"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn:
+    id: "com.google.android.soundpicker:id/track_title"
+    index: 7
+- tapOn:
+    id: "com.google.android.soundpicker:id/save"
+- "back"
