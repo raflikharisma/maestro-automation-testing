@@ -1,5 +1,8 @@
 appId: com.first_app.pomodorotimer
+tags: 
+  - sidebar
 ---
+- launchApp
 - tapOn:
     id: "com.first_app.pomodorotimer:id/menu_icon"
 - scrollUntilVisible:
@@ -11,7 +14,7 @@ appId: com.first_app.pomodorotimer
     id: "com.first_app.pomodorotimer:id/image_text"
 - swipe:
     start: "50%,80%"
-    end: "50%,40%"
+    end: "50%,10%"
 - tapOn: "Retro Riffs"
 - scrollUntilVisible:
     element:
@@ -23,4 +26,4 @@ appId: com.first_app.pomodorotimer
     index: 7
 - tapOn:
     id: "com.google.android.soundpicker:id/save"
-- "back"
+- back

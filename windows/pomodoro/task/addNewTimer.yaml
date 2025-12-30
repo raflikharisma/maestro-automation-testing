@@ -1,7 +1,0 @@
-appId: com.first_app.pomodorotimer
----
-- launchApp
-- tapOn:
-    id: "com.first_app.pomodorotimer:id/cat_sleep"
-- assertVisible:
-    id: "com.first_app.pomodorotimer:id/cat_move"

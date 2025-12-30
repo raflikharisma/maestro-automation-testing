@@ -1,4 +1,6 @@
 appId: com.first_app.pomodorotimer
+tags: 
+  - sidebar
 ---
 - launchApp
 - tapOn:

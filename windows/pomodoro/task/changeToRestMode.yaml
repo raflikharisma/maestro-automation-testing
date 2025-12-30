@@ -1,0 +1,21 @@
+appId: com.first_app.pomodorotimer
+tags: 
+  - task
+---
+- launchApp
+- runFlow:
+    when:
+      visible: "Long rest"
+    commands:
+      - tapOn:
+          id: "com.first_app.pomodorotimer:id/current_action"
+- assertVisible: "Work"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/current_action"
+- assertVisible: "Rest"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/cat_pause"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/cat_sleep"
+- tapOn:
+    id: "com.first_app.pomodorotimer:id/button_rest_restart"

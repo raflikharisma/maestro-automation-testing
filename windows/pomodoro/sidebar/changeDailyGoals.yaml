@@ -1,4 +1,6 @@
 appId: com.first_app.pomodorotimer
+tags: 
+  - sidebar
 ---
 - launchApp
 - tapOn:
@@ -16,4 +18,3 @@ appId: com.first_app.pomodorotimer
 - inputText: "6"
 - tapOn:
     id: "com.first_app.pomodorotimer:id/whenstop_text"
-- "back"

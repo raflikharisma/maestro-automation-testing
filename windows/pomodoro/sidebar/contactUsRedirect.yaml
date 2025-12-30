@@ -1,4 +1,6 @@
 appId: com.first_app.pomodorotimer
+tags: 
+  - sidebar
 ---
 - launchApp
 - tapOn:
@@ -14,3 +16,4 @@ appId: com.first_app.pomodorotimer
     id: "android:id/item"
     index: 3
 - assertVisible: "Sharing text"
+- back
