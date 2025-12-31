@@ -1,0 +1,5 @@
+appId: package:com.google.android.contacts
+---
+- tapOn: "Open navigation drawer"
+- swipe:
+    direction: "LEFT"
