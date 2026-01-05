@@ -1,0 +1,5 @@
+appId: com.first_app.pomodorotimer
+---
+- runFlow: ..\sidebar\changeWorkTime.yaml
+- runFlow: ..\sidebar\changeRestTime.yaml
+- runFlow: ..\sidebar\changeLongRestTime.yaml
