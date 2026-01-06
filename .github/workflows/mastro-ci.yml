@@ -18,4 +18,4 @@ jobs:
           api-key: ${{ secrets.MAESTRO_API_KEY }}
           project-id: ${{ secrets.MAESTRO_CLOUD_PROJECT_ID }}
           app-file: apks/pomodoro.apk
-          workspace: windows/pomodoro/smoke
+          workspace: windows/pomodoro/task
