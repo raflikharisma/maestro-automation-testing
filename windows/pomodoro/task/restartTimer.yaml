@@ -1,5 +1,5 @@
-appId: cm.aptoide.pt
-tags: 
+appId: com.first_app.pomodorotimer
+tags:
   - task
 ---
 - launchApp

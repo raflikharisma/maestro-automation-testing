@@ -1,0 +1,38 @@
+appId: com.google.android.contacts
+---
+- launchApp
+- tapOn:
+    id: "com.google.android.contacts:id/floating_action_button"
+- tapOn:
+    id: "com.google.android.contacts:id/photo"
+- tapOn:
+    id: "com.google.android.contacts:id/photo_picker_button_text"
+    index: 1
+- tapOn:
+    id: "com.google.android.providers.media.module:id/icon_thumbnail"
+- tapOn:
+    id: "com.google.android.contacts:id/photo_picker_accept_button"
+- tapOn: "First name"
+- inputRandomPersonName
+- tapOn: "Last name"
+- inputRandomText
+- scrollUntilVisible:
+    element:
+      text: "Company"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn: "Company"
+- inputText: "Ecomortar"
+- scrollUntilVisible:
+    element:
+      text: "Phone"
+    direction: "DOWN"
+    timeout: 20000
+- tapOn: "Phone"
+- inputRandomNumber:
+    length: 12
+- tapOn:
+    id: "android:id/input_method_nav_back"
+- tapOn:
+    id: "com.google.android.contacts:id/toolbar_button"
+- tapOn: "Navigate up"
