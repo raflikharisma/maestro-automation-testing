@@ -1,0 +1,5 @@
+appId: com.google.android.contacts
+---
+- tapOn: More options
+- tapOn: Delete
+- tapOn: "Move to Trash"

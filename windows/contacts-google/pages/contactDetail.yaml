@@ -1,0 +1,6 @@
+appId: com.google.android.contacts
+---
+- launchApp
+- tapOn:
+    id: com.google.android.contacts:id/cliv_name_textview
+    index: 0

@@ -1,0 +1,7 @@
+appId: com.google.android.contacts
+---
+- tapOn:
+    id: com.google.android.contacts:id/menu_insert_or_edit
+- tapOn: First name
+- inputText: UpdatedName
+- tapOn: Save
