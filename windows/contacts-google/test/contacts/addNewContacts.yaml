@@ -1,4 +1,4 @@
 appId: com.google.android.contacts
 ---
-- runFlow: ../../pages/contactDetail.yaml
+- runFlow: ../../pages/contactPages.yaml
 - runFlow: ../../flows/addContactsFlow.yaml
