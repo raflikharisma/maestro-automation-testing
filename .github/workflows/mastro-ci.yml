@@ -15,7 +15,7 @@ jobs:
       - name: Run Maestro Cloud tests
         uses: mobile-dev-inc/action-maestro-cloud@v1
         with:
-          api-key: ${{ secrets.MAESTRO_CLOUD_API_KEY }}
+          api-key: ${{ secrets.MAESTRO_API_KEY }}
           project-id: ${{ secrets.MAESTRO_CLOUD_PROJECT_ID }}
-          app-file: apks/pomodoro-timer-goldman-co.apk
+          app-file: apks/pomodoro.apk
           workspace: windows/pomodoro
