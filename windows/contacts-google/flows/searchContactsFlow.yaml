@@ -3,9 +3,7 @@ jsEngine: graaljs
 ---
 - launchApp
 - tapOn: "Search contacts"
-
 - runScript:
     file: ../scripts/fetch-user.js
-
 - inputText: ${output.username}
 - assertVisible: ${output.username}

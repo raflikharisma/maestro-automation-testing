@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Pixel_5_API_34" tests="3" failures="1" time="103.0">
+    <testcase id="addNewContacts" name="addNewContacts" classname="addNewContacts" time="55.0" status="SUCCESS"/>
+    <testcase id="deleteContacts" name="deleteContacts" classname="deleteContacts" time="28.0" status="ERROR">
+      <failure>Element not found: Text matching regex: Move to Trash</failure>
+    </testcase>
+    <testcase id="editContacts" name="editContacts" classname="editContacts" time="20.0" status="SUCCESS"/>
+  </testsuite>
+</testsuites>
